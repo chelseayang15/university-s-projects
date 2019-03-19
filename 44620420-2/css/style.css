@@ -1,0 +1,376 @@
+.header {
+  overflow: hidden;
+  background-color: #becbd2;
+  padding: 20px 10px;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #dfe5e8;
+  color: black;
+}
+
+/* Style the active/current link*/
+.active {
+  background-color:#7d97a5 !important;
+  color: white !important;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+}
+.navbar{
+	overflow:hidden;
+	background-color: #4863A0;
+	font-family: Arial;
+	display: block;
+
+
+}
+.navbar a {
+	float:right;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+
+}
+.dropdown{
+	float:right;
+	overflow:hidden;
+
+}
+.dropdown .dropbtn{
+	font-size:16px;
+	border:none;
+	outline:none;
+	color:black;
+	padding:14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin:0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+	background-color: #dfe5e8;
+
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#becbd2;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+	
+	
+}
+.dropdown-content a {
+	float:none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+.dropdown-content a:hover{
+	background-color: #dfe5e8;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.head1{
+	background-image: url('images/back6.jpg');
+	background-size: 80px 130px;
+	font-size: 70px;
+	color:white;
+	text-align: center;
+	background-position: center;
+	background-repeat: none;
+	position:center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+
+.slideshow-container img {
+	width: 1000px;
+	height: 350px;
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  margin-top: -30px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*on a smaller screens, decrease text size*/
+@media only screen and (max-width: 300px){
+	.prev, .next, .text{font-size: 11px;}
+}
+h2{
+	font-size: 50px;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	color:#95B9C7;
+
+}
+.words{
+	font-family: 'Comfortaa', cursive;
+
+}
+
+body {
+  
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 18px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: white;
+}
+.content{
+	font-family: 'Comfortaa', cursive;
+}
+/* Dropup Button */
+.dropbtn2 {
+	background-color: #BCC6CC;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #D1D0CE}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+    margin-top: -250px;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+    background-color: #B6B6B4;
+}
+ 
+body.dark-mode {
+  background-color: #607d8b;
+  color: #eee;
+}
+body.dark-mode a {
+  color: #607d8b;
+}
+body.dark-mode button {
+  background-color: #eee;
+  color: #111;
+}
+
+body.light-mode {
+  background-color: #eee;
+  color: #111;
+}
+body.light-mode a {
+  color: #111;
+}
+body.light-mode button {
+  background-color: #607d8b;
+  color: #eee;
+}
+body {
+  background-color: white;
+  font-family: 'Luckiest Guy', cursive ;
+  font-size: 25px !important;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #95B9C7;
+}
+.author{
+	margin: 10px;
+	padding-top: 14px;
+	border:none;
+	font-family: 'Comfortaa', cursive!important ;
+}
+.characters{
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive ;
+}
+.locations{
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive ;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container > div {
+  
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+}
+fieldset{
+	margin: 30px;
+	font-family: 'Comfortaa', cursive ;
+}
+legend{
+	font-size: 60px;
+}
+.firstcharacter {
+  color: #3a4b53;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+#btnSubmit{
+	background-color:#607d8b!important;
+}
+#quiz{
+	color:#607d8b; 
+}
+
+
+
+

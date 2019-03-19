@@ -1,0 +1,130 @@
+<! doctype html>
+<html lang='en'>
+ <head> 
+  	<meta charset='utf-8'>
+  	<title> quiz </title>
+  	<link rel='stylesheet' href='css/style.css'>
+    
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  </head>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script2.js"></script>
+  
+  <body id="body" class="light-mode"  >
+  	
+
+  	  <div class="header">
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <a href="#default" class="logo">A Journey Into<br> The Center Of The Earth</a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+      <a class='active' href ='story.html'> Story </a>
+      <div class ='dropdown'>
+        <button class='dropbtn'>Characters & Locations
+          <i class='fa fa-caret-down'></i>
+        </button>
+        <div class='dropdown-content'>
+          <a href='characters.html'>Characters</a>
+          <a href='locations.html'>Locations </a>
+</div>
+</div>
+<a href='about.html'>About
+      </a>
+<a href ='About Author.html'>About Author
+</a>
+</div>
+  </div>
+</div>
+<svg viewBox="-50 0 500 200">
+    <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+    <text width="500">
+      <textPath xlink:href="#curve">
+            It's quiz time! Let's do it!
+      </textPath>
+    </text>
+  </svg>
+   
+<div class="dropup">
+  <button class="dropbtn">Where you want to go?</button>
+  <div class="dropup-content">
+    <a href="story.html">chapter 1</a>
+    <a href="chapter 2.html">chapter 2</a>
+    <a href="chapter 3.html">chapter 3</a>
+    <a href='quiz.html'>quiz</a>
+  </div>
+</div>
+<br><br><br>
+  <body>
+    <form id="quiz">
+ <fieldset>
+    <legend>Some questions for you:</legend><br>
+    
+    <h2>1. Axel is Lidenbrock's: </h2>
+    
+<input type="radio" name="choice1" value="son"/>Son.
+<input type="radio" name="choice1" value="ward"/>Ward.
+<input type="radio" name="choice1" value="nephew" />Nephew.
+<input type="radio" name="choice1" value="Student"/>Student.
+
+
+
+<br>
+<h2>2. Where do Lidenbrock and Axel live? </h2>
+<input type="radio" name="choice2" value="England"/>England.
+<input type="radio" name="choice2" value="Germany" />Germany.
+<input type="radio" name="choice2" value="Denmark" />Denmark.
+<input type="radio" name="choice2" value="Iceland"/>Iceland.
+
+
+
+
+<br>
+<h2>3. Arne Saknussemm was a/an: </h2>
+<input type="radio" name="choice3" value="Priest" />Priest.
+<input type="radio" name="choice3" value="Warrior"  />Warrior.
+<input type="radio" name="choice3" value="alchemist" />Alchemist.
+<input type="radio" name="choice3" value="Merchant" "/>Merchant.
+
+
+<br>
+<h2>4. Who or what is Snaefells? </h2>
+<input type="radio" name="choice4" value="A mountain"/>A mountain.
+<input type="radio" name="choice4" value="A city" />A city.
+<input type="radio" name="choice4" value="A star"/>A star.
+<input type="radio" name="choice4" value="An alchemist" />An alchemist.
+
+<br>
+<h2>5. Axel can best be described as:  </h2>
+<input type="radio" name="choice5" value="prideful"/>prideful.
+<input type="radio" name="choice5" value="anxious" />anxious.
+<input type="radio" name="choice5" value="stubborn"/>stubborn.
+<input type="radio" name="choice5" value="stupid" />stupid.
+
+<br><br>
+<button id="btnSubmit" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"> Submit Answers</button>
+
+</form>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p id="answer1">Some text. Some text. Some text.</p>
+        <p id="answer2">Some text. Some text. Some text.</p>
+        <p id="answer3">Some text. Some text. Some text.</p>
+        <p id="answer4">Some text. Some text. Some text.</p>
+        <p id="answer5">Some text. Some text. Some text.</p> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</fieldset>
+</form>
+
+</body>
+</body>
+</html>
