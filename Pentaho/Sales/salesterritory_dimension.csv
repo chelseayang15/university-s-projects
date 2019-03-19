@@ -1,0 +1,11 @@
+SalesTerritory_Dimension_Key,CountryRegionCode,Country,SalesLastYear
+1,US ,United States                                     ,3298694.4938
+2,US ,United States                                     ,3607148.9371
+3,US ,United States                                     ,3205014.0767
+4,US ,United States                                     ,5366575.7098
+5,US ,United States                                     ,3925071.4318
+6,CA ,Canada                                            ,5693988.86
+7,FR ,France                                            ,2396539.7601
+8,DE ,Germany                                           ,1307949.7917
+9,AU ,Australia                                         ,2278548.9776
+10,GB ,United Kingdom                                    ,1635823.3967
